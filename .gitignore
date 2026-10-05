@@ -1,0 +1,40 @@
+# Local environments and notebook artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+# Course datasets, predictions, and training artifacts
+data/
+*.tsv
+**/results/
+**/results2/
+**/models/
+**/logs/
+**/logs2/
+**/runs/
+saved_models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+.env
+.env.*
+
+# Teammates' language implementations stay local.
+/english/
+/finnish/
+
+# Teammate code retained locally.
+/baseline/config.py
+/baseline/inference.py
+/baseline/logger.py
+/baseline/lstm_utils.py
+/baseline/model.py
+/baseline/preprocessing.py
+/baseline/train.py
+/utils/DataLengthAnalysis.py
+/utils/ExtraEnDataCleaning.py
+/utils/preprocessing.py
+/utils/train_mt.py
+/utils/translator.py

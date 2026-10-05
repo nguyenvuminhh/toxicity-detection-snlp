@@ -1,0 +1,18 @@
+# Inferred from source imports; original environment versions were not recorded.
+torch
+transformers
+peft
+datasets
+accelerate
+evaluate
+scikit-learn
+numpy
+pandas
+polars
+sentencepiece
+protobuf
+jupyterlab
+matplotlib
+seaborn
+tensorboard
+googletrans
